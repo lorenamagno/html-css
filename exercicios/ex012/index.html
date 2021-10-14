@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/rocket.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <hr>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- <video src="../midias/golden.mp4" width="350" controls></video> -->  
+    <!-- O código pode ser como esse que foi comentado na linha de cima ou pode ser feito como a seguir: -->
+    <video width="560" controls autoplay loop>
+        <source src="../midias/video.mp4" type="video/mp4" >
+        <!-- Aqui podem ser colocados outros source com o link do mesmo vídeo, porém com formatos diferentes, pois existem navegadores que não aceitam mp4 ou ogg ou webm-->
+    </video>
+    <h2>Inserindo vídeos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hY8ZXyvb_hI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2>Inserindo vídeos do Vímeo</h2>
+    <iframe src="https://player.vimeo.com/video/280500610?h=ca6d6884f6&color=ff0179&portrait=0" width="540" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/280500610">
+</body>
+</html>
